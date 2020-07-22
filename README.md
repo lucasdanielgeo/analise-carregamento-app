@@ -4,4 +4,4 @@ Painel de informações sobre a pesquisa de do carregamento das linhas de onibus
 ## Status
 
 - [x] Criar repositório para o projeto
-- [] Comparar arquivos upados
+- [ ] Comparar arquivos upados
