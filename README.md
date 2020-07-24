@@ -10,5 +10,8 @@ Pacotes python utilizados nesse web app:
 ## Status
 
 - [x] Criar repositório para o projeto
-- [ ] Estruturação do repositório
+- [x] Estruturação do repositório
 - [ ] Comparar arquivos upados
+- [x] Inserir dados da pesquisa
+- [ ] Inserir visualizações cruzadas
+- [x] Inserir mapas
