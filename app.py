@@ -13,7 +13,7 @@ from PIL import Image
 # %%
 @st.cache
 def load_data():
-    df = pd.read_csv("C:/Users/GEOIPUF/Desktop/carregamento_faixa_ponto_criticas.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/lucasdanielgeo/analise-carregamento-app/master/data/carregamento_faixa_ponto_criticas.csv")
     return df
 df = load_data()
 df = df.sort_values(by=['faixa'])
