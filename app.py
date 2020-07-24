@@ -13,7 +13,7 @@ from PIL import Image
 # %%
 @st.cache
 def load_data():
-    df = pd.read_csv("https://raw.githubusercontent.com/lucasdanielgeo/analise-carregamento-app/master/data/carregamento_faixa_ponto_criticas.csv")
+    df = pd.read_csv("data\carregamento_faixa_ponto_criticas.csv")
     return df
 df = load_data()
 df = df.sort_values(by=['faixa'])
@@ -29,7 +29,7 @@ print(df)
 #df = pd.read_csv()
 
 
-image = Image.open("C:/Users/GEOIPUF/Desktop/Logo_pmf.jpg")
+image = Image.open("images/logo_pmf.jpg")
 st.image(image,  use_column_width=True)
 # %%
 st.markdown("## **Dados da pesquisa DUT 2019 🚌**")
